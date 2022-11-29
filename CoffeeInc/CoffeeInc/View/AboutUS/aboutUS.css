@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+nav{
+    height: 97px;
+    background-color: #C7A45F;
+    color: #E3E1D3;
+
+}
+div{
+    justify-content: end;
+}
+
+
+#navbarNav li a{ 
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+    padding: 10px;
+    color: #393F28;
+
+}
+.navbar-brand{
+    padding-top: 40px;
+}
+
+
+/*Caso a gente precise mudar o background do link selecionado*/
+/* a:hover{
+    background-color: black;
+} */
+
+/*Mudar cor do link selecionado*/
+ .active{
+    color: #E3E1D3 !important;
+}
+
+*{
+    margin: 0; 
+}
+
+.pai1{
+    height: 70px;
+    background-color: #EEECE3;
+}
+
+#filha1{
+    /* height: 60px; */
+    /* width: 1500px; */
+    font-size: 60px;
+    color: #393F28;
+    padding-top: 20px;
+    font-family: Bebas Neue;
+    justify-content: center;
+    display: flex;
+}
+
+.pai2{
+    height: 600px;
+    background-color: #EEECE3;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#filha2{
+    padding-top: 30px;
+    height: 200px;
+    width: 1505px;
+    font-size: 24px;
+    font-family: Montserrat, regular;
+    color: #917243;
+    padding-right: 20px;
+}
+
+.pai3{
+    /* height: 300px; */
+    background-color: #CECFB7;
+}
+
+#filha4{
+    /* height: 60px;
+    width: 1505px; */
+    font-size: 60px;
+    color: #393F28;
+    padding-top: 10px;
+    font-family: Bebas Neue;
+    justify-content: center;
+    display: flex;
+}
+
+.pai4{
+    height: 400px;
+    background-color: #CECFB7;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 100px;
+    
+}
+
+#filha5, #filha6, #filha7, #filha8, #filha9{
+    /* height: 300px;
+    width: 200px; */
+    justify-content: center;
+    font-size: 24px;
+    font-family: Bebas Neue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1{
+   padding-left: 20px;
+}
+
+

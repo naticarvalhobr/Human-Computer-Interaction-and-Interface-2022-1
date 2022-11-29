@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+nav{
+    height: 97px;
+    background-color: #C7A45F;
+    color: #E3E1D3;
+
+}
+div{
+    justify-content: end;
+}
+
+
+#navbarNav li a{ 
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+    padding: 10px;
+    color: #393F28;
+
+}
+.navbar-brand{
+    padding-top: 40px;
+}
+
+
+
+body { 
+    background-color: rgb(227, 225, 211) !important;
+}
+h1{ 
+    font-family: Bebas Neue;
+    font-size: 100px !important;
+    color: #393F28!important;
+    padding-left: 90px;
+    padding-top: 80px;
+    font-weight: bold;
+}
+
+.nav-pills > li > a.active {
+    background-color: #B5914A !important;
+    color: #393F28!important;
+    font-size: 36px;
+}
+
+.nav-pills > li > a{ 
+    color: #393F28!important;
+    background-color: rgb(199, 164, 95);
+}
+
+.nav-pills > li { 
+    border-radius: 10px;
+}
+
+.carousel.carousel-fade .carousel-item {
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1;
+    transition: opacity ease-out .7s;
+}
+
+.nav-pills { 
+    margin-left: 40%;
+    margin-right: 9%;
+    margin-top: -90px;
+    background-color: rgb(199, 164, 95) !important;
+    border-radius: 10px;
+    font-family: Bebas Neue;
+    height: 90px;
+    width: 950px;
+    /* padding-top: 10px; */
+    
+}
+.nav-item-carrosel{
+   padding-left: 5px;
+   padding-right: 59px;
+   padding-top: 10px;
+}
+li{
+    font-family: Bebas Neue; 
+}
+/*Pfvr identifica mudanca blabla*/ 
+
+/*Caso a gente precise mudar o background do link selecionado*/
+/* a:hover{
+    background-color: black;
+} */
+
+/*Mudar cor do link selecionado*/
+ .active{
+    color: #E3E1D3 !important;
+}
